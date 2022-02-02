@@ -28,7 +28,7 @@ function Nav() {
         </Link>
         <p className="navtext logbut" onClick={() => handleClick()}>
           {
-            token ? "Logout" : "login/signup"
+            token ? "Logout" : "login"
           }
         </p>
       </div>
